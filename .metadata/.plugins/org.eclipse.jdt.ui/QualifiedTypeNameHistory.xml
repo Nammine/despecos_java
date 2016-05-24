@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="com.wxy.dao.CosmeticDao"/>
+<fullyQualifiedTypeName name="com.wxy.dao.CustomerDao"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.TreeMap"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+<fullyQualifiedTypeName name="com.wxy.dao.OrderLineDao"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.wxy.dao.OrderFormDao"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="com.wxy.service.ICosmeticService"/>
+<fullyQualifiedTypeName name="com.wxy.bean.Cosmetic"/>
+<fullyQualifiedTypeName name="com.wxy.service.impl.CosmeticServiceImpl"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="com.wxy.common.ConnectionFactory"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="com.wxy.bean.Cart"/>
+<fullyQualifiedTypeName name="com.wxy.bean.Customer"/>
+<fullyQualifiedTypeName name="com.wxy.bean.OrderForm"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.beans.Statement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="com.wxy.service.impl.OrderFormServiceImpl"/>
+<fullyQualifiedTypeName name="com.wxy.service.IOrderFormService"/>
+<fullyQualifiedTypeName name="com.wxy.service.ICustomerService"/>
+<fullyQualifiedTypeName name="com.wxy.service.impl.CustomerServiceImpl"/>
+<fullyQualifiedTypeName name="com.wxy.common.HL"/>
+<fullyQualifiedTypeName name="com.wxy.service.IOrderLineService"/>
+<fullyQualifiedTypeName name="com.wxy.service.impl.OrderLineServiceImpl"/>
+<fullyQualifiedTypeName name="com.wxy.bean.OrderLine"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>
