@@ -1,0 +1,5 @@
+package com.wxy.bean;
+
+public class OrderLine {
+
+}

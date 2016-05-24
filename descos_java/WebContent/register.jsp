@@ -1,0 +1,75 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>register</title>
+<style type="text/css">
+body{
+	text-align: center;
+	font-family: "幼圆";
+	font-size: 24px;
+	color: #72392c;
+}
+</style>
+</head>
+<body>
+<p><img src="images/REGISTER.jpg" width="1359" height="340" usemap="#Map" />
+ <map name="Map" id="Map">
+    <area shape="rect" coords="387,249,515,325" href="home.html" />
+    <area shape="rect" coords="566,246,748,330" href="#" />
+    <area shape="rect" coords="794,245,916,324" href="#" />
+    <area shape="rect" coords="973,253,1092,324" href="#" />
+    <area shape="rect" coords="1139,249,1282,322" href="#" />
+  </map>
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<form name="form4" method="post" action="registerServlet">
+<table width="1359">
+  <tr>
+    <td colspan="2"><img src="images/registou.jpg" width="1359" height="50" /></td>
+  </tr>
+  <tr>
+    <td width="679"><img src="images/username.jpg" width="679" height="70" /></td>
+    <td width="676"><input type="text" id="name" maxLength="8" size="32" name="username" style="font-family: Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px; color:"></td>;</td>
+  </tr>
+  <tr>
+    <td><img src="images/passwordd.jpg" width="679" height="70" /></td>
+    <td><input type="password" id="password" maxLength="8" size="32" name="password" style="font-family: Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px; color: #000000"></td>
+  </tr>
+  <tr>
+    <td><img src="images/repassword.jpg" width="679" height="70" /></td>
+    <td><input type="password" id="password2" maxLength="8" size="32" name="password2" style="font-family: Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px; color: #000000"></td>
+  </tr>
+   <tr>
+    <td><img src="images/zipcode.jpg" width="679" height="70" /></td>
+    <td><input type="text" size="32" maxlength="8" id="zip" style="font-family: Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px; color: #000000"></td>
+  </tr>
+  <tr>
+    <td><img src="images/adress1.jpg" width="679" height="70" /></td>
+    <td><input type="text" size="64" maxlength="32" id="street" style="font-family: Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px; color: #000000"></td>
+  </tr>
+  <tr>
+    <td><img src="images/cell.jpg" width="679" height="70" /></td>
+    <td><input type="text" size="32" maxlength="16" id="cellphone" style="font-family: Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px; color: #000000"></td>
+  </tr>
+  <tr>
+    <td><img src="images/email.jpg" width="679" height="70" /></td>
+    <td><input type="text" size="32" maxlength="16" id="email" style="font-family: Tahoma,Verdana,宋体; font-size: 12px; line-height: 15px; color: #000000"></td>
+  </tr>
+  <tr>
+    <td align="right"><input type="submit" id="Submit" value="注册"></td>
+    <td align="left"><input type="reset" value="重置"></td>
+  </tr>
+</table>
+</form>
+<p>&nbsp;</p>
+<p><img src="images/fot.jpg" width="1359" height="90" border="0" align="bottom" usemap="#Map2" />
+  <map name="Map2" id="Map2">
+    <area shape="rect" coords="1197,29,1343,65" href="http://www.desperado.com" />
+  </map>
+</p>
+</body>
+</html>

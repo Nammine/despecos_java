@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>desperado-homepage</title>
+<style type="text/css">
+body {
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+<img src="images/huazhuang3.jpg" width="1331" height="756" border="0" usemap="#Map" />
+<map name="Map" id="Map">
+  <area shape="rect" coords="999,604,1076,638" href="login.jsp" />
+  <area shape="rect" coords="1196,718,1312,737" href="http://www.desperado.com" />
+</map>
+</body>
+</html>

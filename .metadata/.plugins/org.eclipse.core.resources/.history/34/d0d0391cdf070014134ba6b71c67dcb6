@@ -1,0 +1,53 @@
+package com.wxy.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.wxy.bean.Customer;
+import com.wxy.common.ConnectionFactory;
+
+/**
+ * 
+ * @author wxywxy
+ * 验证用户是否存在
+ */
+
+public class CustomerDao {
+	public Customer findCustomer(String name,String password){
+		Customer customer=null;
+		Connection conn=ConnectionFactory.getConnection();
+		String sql="select * from customer where name=? and password=?";
+		try {
+			PreparedStatement pstmt=conn.prepareStatement(sql);
+			pstmt.setString(1, name);
+			pstmt.setString(2, password);
+			ResultSet rs=pstmt.executeQuery();
+			while(rs.next()){
+			    customer=new Customer();
+				int id=rs.getInt("id");
+				String customer_name=rs.getString("name");
+				String customer_password=rs.getString("password");
+				String zip=rs.getString("zip");
+				String address=rs.getString("address");
+				String telephone=rs.getString("telephone");
+				String email=rs.getString("email");
+				customer.setId(id);
+				customer.setName(customer_name);
+				customer.setPassword(customer_password);
+				customer.setZip(zip);
+				customer.setAddress(address);
+				customer.setTelephone(telephone);
+				customer.setEmail(email);
+			}
+			rs.close();
+			pstmt.close();
+			conn.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return customer;
+	}
+}

@@ -1,0 +1,11 @@
+package com.wxy.service;
+/**
+ * 
+ */
+import java.util.List;
+import com.wxy.bean.OrderLine;
+
+public interface IOrderLineService {
+    void addOrderLine(OrderLine orderline);	
+	List<OrderLine> findAllOrderlines(int orderFromId);
+}
